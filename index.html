@@ -37,6 +37,11 @@
 				<a class="nav-link" href="#contact">Contact</a>
 				
 			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#skills">Skills</a>
+				
+			  </li>
+
 		  </ul>
 		</div>  
 	  </nav>
@@ -90,36 +95,36 @@
 		</div>
 	</section>	
 	</section>
-	
-	<div class="container carousel slide carousel-multi-item" data-ride="carousel" id="variety">
-		<div class="controls-top "> 
-		  <h7>Portfolio</h7>
+	<div class="port "> 
+		  <h5>Portfolio</h5>
 		</div>
+	<div class="container carousel slide carousel-multi-item" data-ride="carousel" id="variety">
+		
 		<div class="carousel-inner" role="listbox">
 		  <div class="carousel-item active">
 			<div class="col-md-4">
 			  <div class="card mb-2">
-				<img class="card-img-top" src="images/pizza1.jpg" alt="Card image cap">
+				<img class="card-img-top" src="image/quote.png" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Chicken Tikka</h5>
+				  <h5 class="card-title">Quotes App</h5>
 				</div>
 			  </div>
 			</div>
 	  
 			<div class="col-md-4">
 			  <div class="card mb-2">
-				<img class="card-img-top" src="images/pizza2.jpg" alt="Card image cap">
+				<img class="card-img-top" src="image/pizza.png" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">PeriPeri Pizza</h5>
+				  <h5 class="card-title">Khabeeby Pizza App</h5>
 				</div>
 			  </div>
 			</div>
 	  
 			<div class="col-md-4">
 			  <div class="card mb-2">
-				<img class="card-img-top" src="images/pizza3.jpg" alt="Card image cap">
+				<img class="card-img-top" src="image/herosquad.png" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Raspberry Dessert Pizza</h5>
+				  <h5 class="card-title">Herosuad</h5>
 				</div>
 			  </div>
 			</div>
@@ -127,26 +132,26 @@
 		  <div class="carousel-item">
 			<div class="col-md-4">
 			  <div class="card mb-2">
-				<img class="card-img-top" src="images/pizza4.jpg" alt="Card image cap">
+				<img class="card-img-top" src="image/delani.png" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Chicken Alfredo Pizza</h5>
+				  <h5 class="card-title">Delani</h5>
 				</div>
 			  </div>
 			</div>
 			<div class="col-md-4">
 			  <div class="card mb-2">
-				<img class="card-img-top" src="images/pizza5.jpg" alt="Card image cap">
+				<img class="card-img-top" src="image/anitas.png" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Sunchoke Pizza</h5>
+				  <h5 class="card-title">Anitas Kitchen </h5>
 				</div>
 			  </div>
 			</div>
 	  
 			<div class="col-md-4">
 			  <div class="card mb-2">
-				<img class="card-img-top" src="images/pizza6.jpg" alt="Card image cap">
+				<img class="card-img-top" src="image/akan.png" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title"> Buffalo Chicken Sticks</h5>
+				  <h5 class="card-title"> Akan Name</h5>
 				</div>
 			  </div>
 			</div>
@@ -155,12 +160,102 @@
 	  </div>
 
 	</div>
-	<section class="my-work">
-		<div class="container">
-		Here are Some of the work that I have done
+	
+	<div class="overlay-mf"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                  <div class="title-box-2">
+                    <h5 class="title-left">Send Me A Message</h5>
+                  </div>
+                  <div>
+                    <form
+                      action=""
+                      method="post"
+                      role="form"
+                      class="contactForm"
+                    >
+                      <div id="sendmessage">
+                        
+                      </div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              name="name"
+                              class="form-control"
+                              id="name"
+                              placeholder="Your Name"
+                              data-rule="minlen:4"
+                              data-msg="Please enter at least 4 chars"
+                            />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input
+                              type="email"
+                              class="form-control"
+                              name="email"
+                              id="email"
+                              placeholder="Your Email"
+                              data-rule="email"
+                              data-msg="Please enter a valid email"
+                            />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="subject"
+                              id="subject"
+                              placeholder="Subject"
+                              data-rule="minlen:4"
+                              data-msg="Please enter at least 8 chars of subject"
+                            />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea
+                              class="form-control"
+                              name="message"
+                              rows="5"
+                              data-rule="required"
+                              data-msg="Please write something for us"
+                              placeholder="Message"
+                            ></textarea>
+                            <div class="validation"></div>
+                          </div>
+                          </div>
+                          <div class="col-md-12">
+                          <button
+                            type="submit"
+                            class="button button-a button-small"
+                          >
+                            Send Message
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+					</div>
+					</div>
+					</div>
 
-		</div>
-	</section>
+
+					
 </div>
 	<footer id="main-footer">
 		<p>Copyright &copy; 2021 Abdallah Habib</p>
@@ -170,5 +265,12 @@
 
 <script type="text/javascript" src="particles.js"></script>
 <script type="text/javascript" src="app.js"></script>
+
+<script src="js/mdb.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 </html>

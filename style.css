@@ -15,6 +15,12 @@ body{
 
 
 }
+
+.port{
+	font-size: 100px;
+	text-align: center;
+}
+
 h1.name{
 	font-size: 70px;
 	line-height: 50%;
