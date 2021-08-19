@@ -1,10 +1,4 @@
-body{
-	margin: 0;
-	padding: 0;
-	font-size: 20px;
-	height: 100vh;
 
-}
 
 .main-header{
 	color:white;
@@ -16,9 +10,13 @@ body{
 
 }
 
-.port{
-	font-size: 100px;
+.porti{
+	font-size: 3000px;
+	padding-top: 30px;
 	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+
 }
 
 h1.name{
@@ -26,6 +24,17 @@ h1.name{
 	line-height: 50%;
 
 }
+
+.conta{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+
+
+
 
 .social_m{
 	position: relative;
@@ -113,7 +122,7 @@ p{
 }
 
 .my-work{
-	background: #fff;
+	background:black;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
