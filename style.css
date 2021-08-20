@@ -7,6 +7,9 @@
 
 
 }
+body{
+  background-color: lightslategray;
+}
 
 .porti{
 	font-size: 3000px;
@@ -42,8 +45,10 @@ h1{
 
 .social_m{
 	position: relative;
+  font-size: smaller;
 	text-align: center;
 	line-height: 50px
+  
 
 	
 }
